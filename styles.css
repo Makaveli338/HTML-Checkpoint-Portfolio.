@@ -1,7 +1,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: orange;
+    background-image: url('bg-image.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: blue;
  }
 
  header{
@@ -18,7 +22,8 @@ body {
    main{   
     justify-content: center;
     align-items: center;
-    margin-left: 200px;     
+    margin-left: px; 
+    display: flex;    
    }
 
    footer{
@@ -27,5 +32,6 @@ body {
     align-items: center;
     gap: 50px;
    }
+   
 
   
